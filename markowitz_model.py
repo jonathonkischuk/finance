@@ -12,8 +12,12 @@ NUM_TRADING_DAYS = 252
 # for generating random w (different portfolios)
 NUM_PORTFOLIOS = 10000
 
-# Stocks to Consider
-stocks = ['MSFT', 'META', 'TSM', 'RITM', 'EFC', 'ET']
+# Stocks to Consider:
+# CURRENT HOLDINGS:
+# stocks = ['MSFT', 'META', 'TSM', 'RITM', 'EFC', 'ET']
+
+# CONSIDERED HOLDINGS:
+stocks = ['MSFT', 'META', 'TSM', 'AAPL', 'GOOG', 'IBM', 'GE', 'AMZN']
 
 # Historical data (START & END dates)
 start_date = '2018-01-01'
